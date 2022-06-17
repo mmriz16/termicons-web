@@ -1,4 +1,4 @@
-# Termicons
+<p align="center"><a href="https://termicons.com" target="_blank"><img src="public/logo_termicons.svg" width="400" style="margin-bottom: 50px"></a></p>
 
 _High Quality Web Icon Design_
 
