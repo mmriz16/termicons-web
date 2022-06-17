@@ -14,5 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('dashboard', [
+        "title" => "Dashboard"
+    ]);
+});
+
+Route::get('/usage', function () {
+    return view('usage', [
+        "title" => "Usage"
+    ]);
+});
+
+Route::get('/cheatsheet', function () {
+    return view('cheatsheet', [
+        "title" => "Cheatsheet"
+    ]);
+});
+
+Route::get('/license', function () {
+    return view('license', [
+        "title" => "License"
+    ]);
+});
+
+Route::get('/404', function () {
+    return view('404', [
+        "title" => "404 Not found"
+    ]);
 });

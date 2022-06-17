@@ -1,55 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Termicons</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="relative bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div
-                class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-                <div class="flex justify-start lg:w-0 lg:flex-1">
-                    <a href="#">
-                        <span class="sr-only">Workflow</span>
-                        <img class="h-8 w-auto sm:h-10"
-                            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
-                    </a>
+@extends('layout.main')
+@section('container')
+<ul class="nav nav-pills justify-content-center" style="margin-top: 87px;" id="pills-tab" role="tablist">
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+            type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+    </li>
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom active" id="pills-line-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-line" type="button" role="tab" aria-controls="pills-line" aria-selected="true">Line
+            Style</button>
+    </li>
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom" id="pills-solid-tab" data-bs-toggle="pill" data-bs-target="#pills-solid"
+            type="button" role="tab" aria-controls="pills-solid" aria-selected="false">Solid Style</button>
+    </li>
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom" id="pills-filled-tab" data-bs-toggle="pill" data-bs-target="#pills-filled"
+            type="button" role="tab" aria-controls="pills-filled" aria-selected="false">Filled Line Style</button>
+    </li>
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom" id="pills-duotone-tab" data-bs-toggle="pill" data-bs-target="#pills-duotone"
+            type="button" role="tab" aria-controls="pills-duotone" aria-selected="false">Duotone Style</button>
+    </li>
+    <li class="nav-item mx-3" role="presentation">
+        <button class="nav-link nav-custom" id="pills-logo-tab" data-bs-toggle="pill" data-bs-target="#pills-logo"
+            type="button" role="tab" aria-controls="pills-logo" aria-selected="false">Logos Style</button>
+    </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane" style="margin-top: 87px;" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+        <h1 style="font-weight: bold; color: var(--black);">All Style Icons</h1>
+    </div>
+    <div class="tab-pane show active" style="margin-top: 87px;" id="pills-line" role="tabpanel"
+        aria-labelledby="pills-line-tab">
+        <h1 style="font-weight: bold; color: var(--black);">Line Style Icons</h1>
+        <div class="detail d-flex justify-content-between">
+            <div class="card mt-5" style="border: none; background-color: var(--body);">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Icon User.png" style="width: 100%;">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body py-0">
+                            <h5 class="card-title" style="font-weight: bold; color: var(--black);">User</h5>
+                            <p class="card-text" style="color: var(--black-70);">Standard grid, termicons free
+                            </p>
+                            <p class="card-text m-0" style="color: var(--black-50);"><small>Light / Primary /
+                                    Blue
+                                    100</small></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="-mr-2 -my-2 md:hidden">
-                    <button type="button"
-                        class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                        aria-expanded="false">
-                        <span class="sr-only">Open menu</span>
-                        <!-- Heroicon name: outline/menu -->
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="2" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
+            </div>
+            <div class="card mt-5" style="border: none; background-color: var(--body);">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Icon Trash Can.png" style="width: 100%;">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body py-0">
+                            <h5 class="card-title" style="font-weight: bold; color: var(--black);">Trash Can
+                            </h5>
+                            <p class="card-text" style="color: var(--black-70);">Standard grid, termicons free
+                            </p>
+                            <p class="card-text m-0" style="color: var(--black-50);"><small>Light / Primary /
+                                    Blue
+                                    100</small></p>
+                        </div>
+                    </div>
                 </div>
-                <nav class="hidden md:flex space-x-10">
-
-                    <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Pricing </a>
-                    <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Docs </a>
-
-                </nav>
-                <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                    <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign
-                        in </a>
-                    <a href="#"
-                        class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                        Sign up </a>
+            </div>
+            <div class="card mt-5" style="border: none; background-color: var(--body);">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Icon Trash Can-1.png" style="width: 100%;">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body py-0">
+                            <h5 class="card-title" style="font-weight: bold; color: var(--black);">Warning</h5>
+                            <p class="card-text" style="color: var(--black-70);">Standard grid, termicons free
+                            </p>
+                            <p class="card-text m-0" style="color: var(--black-50);"><small>Light / Primary /
+                                    Blue
+                                    100</small></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="card mt-5" style="border: none; background-color: var(--black-5); border-radius: 10px;">
+            <div class="input-group">
+                <div class="input-group-text p-3" id="button-addon2"
+                    style="border: none; background-color: rgba(0, 0, 0, 0);"><i class="ti ti-search ti-sm"
+                        style="color: var(--black-70);"></i></div>
+                <input type="search" class="form-control p-3 ti-search" placeholder="Search..."
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+            </div>
+        </div>
+        <p class="mt-2 d-flex justify-content-end" style="color: var(--black-50);">1000 of 1000 icons</p>
 
-</body>
+        <div class="d-flex flex-row justify-content-between mt-5 flex-wrap" id="iconListIndex">
 
-</html>
+        </div>
+    </div>
+    <div class="tab-pane" style="margin-top: 87px;" id="pills-solid" role="tabpanel" aria-labelledby="pills-solid-tab">
+        <h1 style="font-weight: bold; color: var(--black);">Solid Style Icons</h1>
+    </div>
+    <div class="tab-pane" style="margin-top: 87px;" id="pills-filled" role="tabpanel"
+        aria-labelledby="pills-filled-tab">
+        <h1 style="font-weight: bold; color: var(--black);">Filled Line Style Icons</h1>
+    </div>
+    <div class="tab-pane" style="margin-top: 87px;" id="pills-duotone" role="tabpanel"
+        aria-labelledby="pills-duotone-tab">
+        <h1 style="font-weight: bold; color: var(--black);">Duotone Style Icons</h1>
+    </div>
+    <div class="tab-pane" style="margin-top: 87px;" id="pills-logo" role="tabpanel" aria-labelledby="pills-logo-tab">
+        <h1 style="font-weight: bold; color: var(--black);">Logo Style Icons</h1>
+    </div>
+</div>
+
+<hr class="mt-5" style="margin: 0; opacity: 5%;">
+
+<!-- Go To Top -->
+<div class="row justify-content-right">
+    <div class="col-lg-10">
+        <a class="gotopbtn" href="#"><i class="fas fa-caret-up"></i></a>
+    </div>
+</div>
+
+<!-- Go To Top -->
+<div class="row justify-content-right">
+    <div class="col-lg-10">
+        <i class="fa-solid fa-moon darkmode" id="toggleDark"></i>
+    </div>
+</div>
+@endsection

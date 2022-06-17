@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Not Found</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="h-screen">
-    <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-lg w-full space-y-8">
-            <div class="flex justify-center">
-                <img class="mb-4" src="just_logo.svg" width="80">
-            </div>
-            <div>
-                <h2 class="text-center text-md font-semibold text-indigo-500">404 ERROR</h2>
-                <h2 class="text-center text-5xl font-extrabold text-gray-900">Page not found.</h2>
-                <h2 class="mt-4 text-center text-lg text-gray-900">Sorry, we couldn't find the page you're looking for.</h2>
-                <a class="text-center" href="/"><p class="mt-10 text-indigo-500 font-semibold">Go back home</p></a>
-            </div>
-        </div>
+@extends('layout.main')
+@section('container')
+<div class="row flex justify-content-center align-items-center" style="height: calc(100vh - 60px - 100px)">
+    <div class="col-4">
+        <main class="form-signin w-100 m-auto h-100">
+            <form class="text-center">
+                <img class="mb-5 flex justify-center" src="just_logo.svg" alt="" width="72" height="57">
+                <h1 class="h3 mb-2 fw-normal" style="font-size: 16px">404 ERROR</h1>
+                <h1 class="h3 mb-2 fw-bold" style="font-size: 46px">Page not found.</h1>
+                <h1 class="h3 mb-5 fw-normal" style="font-size: 16px">Sorry, we couldn't find the page you're looking for</h1>
+                <a href="/" style="text-decoration: none">Go back home</a>
+            </form>
+        </main>
     </div>
-
-</body>
-
-</html>
+</div>
+@endsection
