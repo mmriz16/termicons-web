@@ -7,7 +7,7 @@ _High Quality Web Icon Design_
 _Announcing Termicons v1.0.0_
 
 - Fixed the errors with a few svgs, added viewbox
-- Added 22 new icons
+- Added 100+ new icons
 
 ## Installation
 
