@@ -118,20 +118,4 @@
         <h1 style="font-weight: bold; color: var(--black);">Logo Style Icons</h1>
     </div>
 </div>
-
-<hr class="mt-5" style="margin: 0; opacity: 5%;">
-
-<!-- Go To Top -->
-<div class="row justify-content-right">
-    <div class="col-lg-10">
-        <a class="gotopbtn" href="#"><i class="fas fa-caret-up"></i></a>
-    </div>
-</div>
-
-<!-- Go To Top -->
-<div class="row justify-content-right">
-    <div class="col-lg-10">
-        <i class="fa-solid fa-moon darkmode" id="toggleDark"></i>
-    </div>
-</div>
 @endsection

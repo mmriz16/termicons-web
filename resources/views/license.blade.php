@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('container')
-<div class="d-flex justify-content-center align-items-center" style="height: calc(100vh - 60px - 100px)">
+<div class="d-flex justify-content-center align-items-center" style="height: calc(100vh - 70px - 100px)">
     <div class="col-5 my-auto">
         <h2 style=" font-weight: bold; color: var(--black);">Termicons Free License</h2>
         <p style="color: var(--black-50)">Last updated on January 31, 2021</p>

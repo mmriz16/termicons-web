@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('container')
-<div class="row flex justify-content-center align-items-center" style="height: calc(100vh - 60px - 100px)">
+<div class="row flex justify-content-center align-items-center" style="height: calc(100vh - 70px - 100px)">
     <div class="col-4">
         <main class="form-signin w-100 m-auto h-100">
             <form class="text-center">
