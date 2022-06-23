@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0F58EB">
     <title>Termicons | Title</title>
-    <link rel="icon" href="just_logo.svg">
+    <link rel="icon" href="<?= url('just_logo.svg') ?>">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://termicons.com/CSS/termicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -24,8 +25,6 @@
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script defer src="/assets/js/index.js"></script>
-    <script defer src="/assets/js/darkmode.js"></script>
 </head>
 
 <body style="font-family: 'Poppins', sans-serif; background-color: var(--body);">
@@ -55,7 +54,7 @@
                         style="border: none; background-color: rgba(0, 0, 0, 0); color: var(--black-50); padding-right: 20px; font-size: 15px;">Usage</a>
                     <a href="https://redma.gumroad.com/l/Termicons" class="btn btn-primary"
                         style="background-color: rgba(15, 88, 235, .1); border: none; color: rgb(15, 88, 235); font-size: 15px;"
-                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>Version 1.0</a>
+                        target="_blank"><i class="bx bx-user" style="margin-right: 10px;"></i>Version 1.0</a>
                 </form>
             </div>
         </nav>

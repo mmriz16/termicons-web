@@ -13,12 +13,12 @@
 </div>
 
 <!-- Usage -->
-<div class="usage" style="margin: 150px 50px 0 50px;">
+<div class="usage" style="margin: 120px 50px 0 50px;">
     <div class="row">
 
         <!-- Side Menu -->
         <div class="col-3">
-            <div class="sticky-top" style="top: 30px">
+            <div class="sticky-top" style="padding-top: 30px;">
                 <div class="row" style="line-height: 30px;">
                     <a href="#install_via_npm" style="text-decoration: none; color: var(--black); font-weight: bold; opacity: 50%;">Icons</a>
                     <div class="sub col-10" style="margin: 10px 0 0 40px">
@@ -35,11 +35,119 @@
 
         <!-- Quick Start -->
         <div class="col-9">
-            <h3 style="color: var(--black);">Line Style Icons</h3>
+            {{-- Line Style Icons --}}
+            <h3 style="color: var(--black); padding-top: 30px" id="line_style">Line Style Icons</h3>
             <p style="color: var(--black-70);">User Interface</p>
             <div class="col-12">
                 <div class="row">
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i>bell</p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i>bell-off</p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                </div>
+            </div>
+
+            {{-- Solid Style Icons --}}
+            <h3 style="color: var(--black); padding-top: 30px;" id="solid_style">Solid Style Icons</h3>
+            <p style="color: var(--black-70);">User Interface</p>
+            <div class="col-12">
+                <div class="row">
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i>bell</p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i>bell-off</p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
+                    <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i></p>
                 </div>
             </div>
         </div>

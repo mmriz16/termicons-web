@@ -14,18 +14,6 @@
         <button class="nav-link nav-custom" id="pills-solid-tab" data-bs-toggle="pill" data-bs-target="#pills-solid"
             type="button" role="tab" aria-controls="pills-solid" aria-selected="false">Solid Style</button>
     </li>
-    <li class="nav-item mx-3" role="presentation">
-        <button class="nav-link nav-custom" id="pills-filled-tab" data-bs-toggle="pill" data-bs-target="#pills-filled"
-            type="button" role="tab" aria-controls="pills-filled" aria-selected="false">Filled Line Style</button>
-    </li>
-    <li class="nav-item mx-3" role="presentation">
-        <button class="nav-link nav-custom" id="pills-duotone-tab" data-bs-toggle="pill" data-bs-target="#pills-duotone"
-            type="button" role="tab" aria-controls="pills-duotone" aria-selected="false">Duotone Style</button>
-    </li>
-    <li class="nav-item mx-3" role="presentation">
-        <button class="nav-link nav-custom" id="pills-logo-tab" data-bs-toggle="pill" data-bs-target="#pills-logo"
-            type="button" role="tab" aria-controls="pills-logo" aria-selected="false">Logos Style</button>
-    </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane" style="margin-top: 87px;" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
@@ -105,17 +93,6 @@
     </div>
     <div class="tab-pane" style="margin-top: 87px;" id="pills-solid" role="tabpanel" aria-labelledby="pills-solid-tab">
         <h1 style="font-weight: bold; color: var(--black);">Solid Style Icons</h1>
-    </div>
-    <div class="tab-pane" style="margin-top: 87px;" id="pills-filled" role="tabpanel"
-        aria-labelledby="pills-filled-tab">
-        <h1 style="font-weight: bold; color: var(--black);">Filled Line Style Icons</h1>
-    </div>
-    <div class="tab-pane" style="margin-top: 87px;" id="pills-duotone" role="tabpanel"
-        aria-labelledby="pills-duotone-tab">
-        <h1 style="font-weight: bold; color: var(--black);">Duotone Style Icons</h1>
-    </div>
-    <div class="tab-pane" style="margin-top: 87px;" id="pills-logo" role="tabpanel" aria-labelledby="pills-logo-tab">
-        <h1 style="font-weight: bold; color: var(--black);">Logo Style Icons</h1>
     </div>
 </div>
 @endsection
