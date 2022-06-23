@@ -11,6 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?= url('/termicons/CSS/termicons.min.css')?>">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://termicons.com/CSS/termicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +55,7 @@
                         style="border: none; background-color: rgba(0, 0, 0, 0); color: var(--black-50); padding-right: 20px; font-size: 15px;">Usage</a>
                     <a href="https://redma.gumroad.com/l/Termicons" class="btn btn-primary"
                         style="background-color: rgba(15, 88, 235, .1); border: none; color: rgb(15, 88, 235); font-size: 15px;"
-                        target="_blank"><i class="bx bx-user" style="margin-right: 10px;"></i>Version 1.0</a>
+                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>Version 1.0</a>
                 </form>
             </div>
         </nav>
