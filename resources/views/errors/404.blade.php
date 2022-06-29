@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main', 'Page not found')
 @section('container')
 <div class="row flex justify-content-center align-items-center" style="height: calc(100vh - 70px - 100px)">
     <div class="col-4">

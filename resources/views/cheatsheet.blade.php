@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main', 'title'=> 'Cheatsheet')
 @section('container')
 <!-- Header -->
 <div class="header" style="margin: 150px 50px 0 50px;">

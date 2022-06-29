@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main', 'title'=> 'License')
 @section('container')
 <div class="d-flex justify-content-center align-items-center" style="height: calc(100vh - 70px - 100px)">
     <div class="col-5 my-auto">

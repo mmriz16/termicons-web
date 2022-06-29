@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main', 'title'=> 'Usage')
 @section('container')
 <!-- Header -->
 <div class="header" style="margin: 150px 50px 0 50px;">
@@ -119,7 +119,7 @@
                     <div class="d-flex justify-content-between align-items-center m-0"><span class="text-line me-2"
                             style="font-family: monospace" id="text3">
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">script src</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@{{ $version }}/dist/termicons.js&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">script</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">script src</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/dist/termicons.js&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">script</span>&gt;</pre>
                         </span><button id="copyButton3" class="btn btn-sm copyButton"
                             style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
                 </div>
@@ -195,7 +195,7 @@
                     <div class="d-flex justify-content-between align-items-center m-0"><span class="text-line me-2"
                             style="font-family: monospace" id="text4">
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@1.0.2/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span>=</span>&quot;<span style="color: #0F58EB;">stylesheet</span>&quot;&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span>=</span>&quot;<span style="color: #0F58EB;">stylesheet</span>&quot;&gt;</pre>
                         </span><button id="copyButton4" class="btn btn-sm copyButton"
                             style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
                 </div>
@@ -258,7 +258,7 @@
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons CSS --&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@1.0.2/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
                             <pre class="javascript"
@@ -301,7 +301,7 @@
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons JS --&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@1.0.2/dist/termicons.js&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/dist/termicons.js&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
                             <pre class="javascript"

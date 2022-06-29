@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main', 'title'=> 'Dashboard')
 @section('container')
 <ul class="nav nav-pills justify-content-center" style="margin-top: 87px;" id="pills-tab" role="tablist">
     <li class="nav-item mx-3" role="presentation">
