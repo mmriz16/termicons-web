@@ -21,7 +21,8 @@ Route::get('/', function () {
 
 Route::get('/usage', function () {
     return view('usage', [
-        "title" => "Usage"
+        "title" => "Usage",
+        "version" => "1.0.2"
     ]);
 });
 

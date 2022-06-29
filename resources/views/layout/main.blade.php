@@ -54,7 +54,7 @@
                         style="border: none; background-color: rgba(0, 0, 0, 0); color: var(--black-50); padding-right: 20px; font-size: 15px;">Usage</a>
                     <a href="https://redma.gumroad.com/l/Termicons" class="btn btn-primary"
                         style="background-color: rgba(15, 88, 235, .1); border: none; color: rgb(15, 88, 235); font-size: 15px;"
-                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>Version 1.0</a>
+                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>Version 1.0.2</a>
                 </form>
             </div>
         </nav>
