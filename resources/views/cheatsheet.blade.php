@@ -1,4 +1,4 @@
-@extends('layout.main', 'title'=> 'Cheatsheet')
+@extends('layout.main')
 @section('container')
 <!-- Header -->
 <div class="header" style="margin: 150px 50px 0 50px;">
@@ -37,7 +37,7 @@
             {{-- Line Style Icons --}}
             <h3 style="color: var(--black); padding-top: 30px" id="line_style">Line Style Icons</h3>
             <p style="color: var(--black-70);">User Interface</p>
-            <div class="col-12">
+            <div class="col-12" style="color: var(--black-70)">
                 <div class="row">
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell" style="font-size: 24px; padding-right: 10px;"></i>ti-bell</p>
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti ti-bell-off" style="font-size: 24px; padding-right: 10px;"></i>ti-bell off</p>
@@ -165,7 +165,7 @@
             {{-- Solid Style Icons --}}
             <h3 style="color: var(--black); padding-top: 30px;" id="solid_style">Solid Style Icons</h3>
             <p style="color: var(--black-70);">User Interface</p>
-            <div class="col-12">
+            <div class="col-12" style="color: var(--black-70)">
                 <div class="row">
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti tis-bell" style="font-size: 24px; padding-right: 10px;"></i>tis-bell</p>
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti tis-bell-off" style="font-size: 24px; padding-right: 10px;"></i>tis-bell off</p>
@@ -292,7 +292,7 @@
 
             {{-- Logo Style Icons --}}
             <h3 style="color: var(--black); padding-top: 30px;" id="logo">Logo Style Icons</h3>
-            <div class="col-12">
+            <div class="col-12" style="color: var(--black-70)">
                 <div class="row">
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti til-500px" style="font-size: 24px; padding-right: 10px;"></i>til-500px</p>
                     <p class="col-4" style="text-align: left; font-size: 16px; display: flex; justify-items: center;"><i class="ti til-adobe" style="font-size: 24px; padding-right: 10px;"></i>til-adobe</p>

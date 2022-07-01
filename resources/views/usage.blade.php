@@ -1,4 +1,4 @@
-@extends('layout.main', 'title'=> 'Usage')
+@extends('layout.main')
 @section('container')
 <!-- Header -->
 <div class="header" style="margin: 150px 50px 0 50px;">
@@ -209,13 +209,7 @@
                 line style icons,
                 <span class="badge bg-custom"
                     style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">tis-</span>
-                for solid style icons,
-                <span class="badge bg-custom"
-                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">tif-</span>
-                for filled style icons,
-                <span class="badge bg-custom"
-                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">tid-</span>
-                for duotone style icons &
+                for solid style icons, &
                 <span class="badge bg-custom"
                     style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">til-</span>
                 for
@@ -468,10 +462,11 @@
             </p>
             <div class="card" style="border: none; background-color: var(--black-5);">
                 <div class="card-body" style="color: var(--black-70);">
-                    <i class="ti-fw ti til-facebook" style="padding-right: 5px; color: var(--black-70);"></i>Facebook<br>
-                    <i class="ti-fw ti til-slack"
-                        style="padding-right: 5px; color: var(--black-70);"></i>Slack<br>
-                    <i class="ti-fw ti til-instagram" style="padding-right: 5px; color: var(--black-70);"></i>Instagram</div>
+                    <i class="ti-fw ti til-facebook"
+                        style="padding-right: 5px; color: var(--black-70);"></i>Facebook<br>
+                    <i class="ti-fw ti til-slack" style="padding-right: 5px; color: var(--black-70);"></i>Slack<br>
+                    <i class="ti-fw ti til-instagram" style="padding-right: 5px; color: var(--black-70);"></i>Instagram
+                </div>
             </div>
             <div class="card" style="margin-top: 16px; border: none; background-color: var(--black-5);">
                 <div class="card-body">
@@ -544,8 +539,7 @@
             </p>
             <div class="card" style="border: none; background-color: var(--black-5);">
                 <div class="card-body p-3 d-flex align-items-center">
-                    <i class="ti tis-heart ti-border ti-md"
-                        style="margin-right: 10px; color: var(--black-70);"></i>
+                    <i class="ti tis-heart ti-border ti-md" style="margin-right: 10px; color: var(--black-70);"></i>
                     <i class="ti tis-heart ti-border-circle ti-md" style=" color: var(--black-70);"></i>
                 </div>
             </div>
@@ -598,10 +592,14 @@
                     <i class="ti tis-bell ti-md ti-tada" style="padding: 0 8px; color: var(--black);"></i>
                     <i class="ti tis-warning ti-md ti-flashing" style="padding: 0 8px; color: var(--black);"></i>
                     <i class="ti tis-eye ti-md ti-burst" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-left-cr-fr ti-md ti-fade-left" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-right-cr-fr ti-md ti-fade-right" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-down-cr-fr ti-md ti-fade-up" style="padding: 0 8px; color: var(--black); position: relative;"></i>
-                    <i class="ti tis-chevron-up-cr-fr ti-md ti-fade-down" style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-left-cr-fr ti-md ti-fade-left"
+                        style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-right-cr-fr ti-md ti-fade-right"
+                        style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-down-cr-fr ti-md ti-fade-up"
+                        style="padding: 0 8px; color: var(--black); position: relative;"></i>
+                    <i class="ti tis-chevron-up-cr-fr ti-md ti-fade-down"
+                        style="padding: 0 8px; color: var(--black);"></i>
                 </div>
             </div>
             <div class="card" style="margin-top: 16px; border: none; background-color: var(--black-5);">
@@ -666,10 +664,14 @@
                     <i class="ti tis-bell ti-md ti-tada-hover" style="padding: 0 8px; color: var(--black);"></i>
                     <i class="ti tis-warning ti-md ti-flashing-hover" style="padding: 0 8px; color: var(--black);"></i>
                     <i class="ti tis-eye ti-md ti-burst-hover" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-left-cr-fr ti-md ti-fade-left-hover" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-right-cr-fr ti-md ti-fade-right-hover" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-down-cr-fr ti-md ti-fade-up-hover" style="padding: 0 8px; color: var(--black);"></i>
-                    <i class="ti tis-chevron-up-cr-fr ti-md ti-fade-down-hover" style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-left-cr-fr ti-md ti-fade-left-hover"
+                        style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-right-cr-fr ti-md ti-fade-right-hover"
+                        style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-down-cr-fr ti-md ti-fade-up-hover"
+                        style="padding: 0 8px; color: var(--black);"></i>
+                    <i class="ti tis-chevron-up-cr-fr ti-md ti-fade-down-hover"
+                        style="padding: 0 8px; color: var(--black);"></i>
                 </div>
             </div>
             <div class="card" style="margin-top: 16px; border: none; background-color: var(--black-5);">
@@ -725,4 +727,5 @@
                 Termicons.</p>
         </div>
     </div>
-    @endsection
+</div>
+@endsection

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0F58EB">
-    <title>Termicons | </title>
+    <title>Termicons | {{ $title ?? "404 Page not found" }}</title>
     <link rel="icon" href="<?= url('just_logo.svg') ?>">
 
     <!-- CSS -->
@@ -25,6 +25,7 @@
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="<?= url('js/index.js') ?>"></script>
 </head>
 
 <body style="font-family: 'Poppins', sans-serif; background-color: var(--body);">
@@ -37,15 +38,18 @@
                         style="font-weight: normal; color: var(--black-30); font-size: 14px;">Icon Library</span>
                 </a>
                 <form class="d-flex">
-                    <a href="https://facebook.com/mmriz16" target="_blank" class="mx-3" style="width: 25px;">
-                        <img src="Facebook.svg" alt="">
+                    <a href="https://facebook.com/mmriz16" target="_blank" class="mx-3" style="font-size: 24px; color: var(--black-70)">
+                        <i class="ti til-facebook-square"></i>
                     </a>
-                    <a href="https://twitter.com/kamado_kaozi" target="_blank" class="mx-3" style=" width: 25px;"><img
-                            src="Twitter.svg" alt=""></a>
-                    <a href="https://instagram.com/mmriz16" target="_blank" class="mx-3" style=" width: 25px;"><img
-                            src="Instagram.svg" alt=""></a>
-                    <a href="https://linkedin.com/in/mmriz16" target="_blank" class="mx-3" style=" width: 25px;"><img
-                            src="Linkedin.svg" alt=""></a>
+                    <a href="https://twitter.com/kamado_kaozi" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                        <i class="ti til-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/mmriz16" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                        <i class="ti til-instagram-alt"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mmriz16" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                        <i class="ti til-linkedin-square"></i>
+                    </a>
                 </form>
                 <form class="d-flex">
                     <a href="https://github.com/mmriz16/termicons" class="btn" target="_blank"
@@ -54,14 +58,12 @@
                         style="border: none; background-color: rgba(0, 0, 0, 0); color: var(--black-50); padding-right: 20px; font-size: 15px;">Usage</a>
                     <a href="https://redma.gumroad.com/l/Termicons" class="btn btn-primary"
                         style="background-color: rgba(15, 88, 235, .1); border: none; color: rgb(15, 88, 235); font-size: 15px;"
-                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>{{ $fullVersion }}</a>
+                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>{{ $fullVersion ?? "Version 1.0.3" }}</a>
                 </form>
             </div>
         </nav>
 
-        <div class="" style="height: calc(100vh - 70px - 100px)">
             @yield('container')
-        </div>
 
         <!-- Go To Top -->
         <div class="row justify-content-right">
@@ -70,7 +72,7 @@
             </div>
         </div>
 
-        <!-- Go To Top -->
+        <!-- Dark Mode -->
         <div class="row justify-content-right">
             <div class="col-lg-10">
                 <i class="fa-solid fa-moon darkmode" id="toggleDark"></i>
@@ -97,6 +99,21 @@
             </nav>
         </div>
     </div>
+
+    {{-- <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <script>
+        var icon = document.getElementById("toggleDark");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+        }
+
+    </script> --}}
 </body>
 
 </html>
