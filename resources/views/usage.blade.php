@@ -152,23 +152,23 @@
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;line | solid | duotone&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;line | solid | duotone&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;adjust | alarm | etc..&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;adjust | alarm | etc..&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;blue | red | etc..&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;blue | red | etc..&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;xs | sm | md | lg | cssSize&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;xs | sm | md | lg | cssSize&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;90 | 180 | 270&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;90 | 180 | 270&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;horizontal | vertical&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;horizontal | vertical&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;square | circle&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;square | circle&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;spin | tada | etc..&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;spin | tada | etc..&quot;</span></pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;left | right&quot;</span></pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #FA5C7C;">    type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;left | right&quot;</span></pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
                 </div>
@@ -241,27 +241,29 @@
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">head</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">meta charset</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;utf-8&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">meta charset</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;utf-8&quot;</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">meta name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;viewport&quot;</span><span style="color: #FA5C7C;">content</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">meta name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;viewport&quot;</span><span style="color: #FA5C7C;">content</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;</span>&gt;</pre>
+                            <br>
+                                <pre class="javascript"
+                                style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">    &lt;-- Termicons CSS --&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons CSS --&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
-                            <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">head</span>&gt;</pre>
-                            <pre class="javascript"
+                            <br>
+                                <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">h1</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">h1</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">h1</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">h1</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti til-facebook-square&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti til-facebook-square&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
@@ -269,9 +271,7 @@
                         </span></div>
                 </div>
             </div>
-            <p style="margin-top: 16px; font-weight: normal; color: var(--black-70);">A template usage with the
-                web component instead of
-                icon font template</p>
+            <p style="margin-top: 16px; font-weight: normal; color: var(--black-70);">A template usage with the web component instead of icon font template</p>
             <div class="card" style="border: none; background-color: var(--black-5);">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-start m-0"><span class="text-line me-2"
@@ -283,27 +283,29 @@
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">head</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">meta charset</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;utf-8&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">meta charset</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;utf-8&quot;</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">meta name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;viewport&quot;</span><span style="color: #FA5C7C;">content</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">meta name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;viewport&quot;</span><span style="color: #FA5C7C;">content</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;</span>&gt;</pre>
+                            <br>
+                                <pre class="javascript"
+                                style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">    &lt;-- Termicons JS --&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons JS --&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/dist/termicons.js&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/dist/termicons.js&quot;</span><span style="color: #FA5C7C;">rel</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;stylesheet&quot;</span>&gt;</pre>
-                            <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">title</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">title</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">head</span>&gt;</pre>
-                            <pre class="javascript"
+                            <br>
+                                <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">h1</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">h1</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">h1</span>&gt;Hello, Termicons!</span>&lt;/<span style="color: #FA5C7C;">h1</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;solid&quot;</span><span style="color: #FA5C7C;">name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">term-icon type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;solid&quot;</span><span style="color: #FA5C7C;">name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;hot&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
                             <pre class="javascript"
-                                style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;logo&quot;</span><span style="color: #FA5C7C;">name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;facebook-square&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
+                                style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">term-icon type</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;logo&quot;</span><span style="color: #FA5C7C;">name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;facebook-square&quot;</span>&gt;</span>&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
@@ -354,7 +356,8 @@
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-heart ti-md&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-heart ti-lg&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
-                    <pre class="javascript"
+                    <br>
+                        <pre class="javascript"
                         style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons web component --&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;heart&quot;</span><span style="color: #FA5C7C;">size</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;lg</span>&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
@@ -401,7 +404,8 @@
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-heart ti-flip-horizontal&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-heart ti-flip-vertical&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
-                    <pre class="javascript"
+                    <br>
+                        <pre class="javascript"
                         style="font-family:monospace; margin: 0; font-style: italic; color: #9b9b9b;">&lt;-- Termicons web component --&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;heart&quot;</span><span style="color: #FA5C7C;">rotate</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;90</span>&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
@@ -542,7 +546,8 @@
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart bx-border&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart bx-border-circle&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
-                    <pre class="javascript"
+                    <br>
+                        <pre class="javascript"
                         style="font-family:monospace; margin: 0;"><span style="color: #9b9b9b; font-style: italic;">&lt;!-- Termicons web component --&gt;</span></pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;trash-can&quot;</span><span style="color: #FA5C7C;">border</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;circle&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
@@ -613,7 +618,8 @@
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-chevron-up-cr-fr ti-fade-up&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-chevron-down-cr-fr ti-fade-down&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
-                    <pre class="javascript"
+                    <br>
+                        <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #9b9b9b; font-style: italic;">&lt;!-- Termicons web component --&gt;</span></pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;bell&quot;</span><span style="color: #FA5C7C;">animation</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;tada&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
@@ -685,7 +691,8 @@
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-chevron-up-cr-fr ti-fade-up-hover&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-chevron-down-cr-fr ti-fade-down-hover&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
-                    <pre class="javascript"
+                    <br>
+                        <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);"><span style="color: #9b9b9b; font-style: italic;">&lt;!-- Termicons web component --&gt;</span></pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">term-icon name</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;bell&quot;</span><span style="color: #FA5C7C;">animation</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;tada-hover&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">term-icon</span>&gt;</pre>
