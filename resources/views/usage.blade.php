@@ -89,8 +89,6 @@
                         <span class="text-line me-2" style="font-family: monospace; color: var(--black-70);"
                             id="text1">$ npm install
                             termicons --save</span>
-                        <button id="copyButton1" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button>
                     </div>
                 </div>
             </div>
@@ -99,8 +97,7 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center m-0"><span class="text-line me-2"
                             style="font-family: monospace; color: var(--black-70);" id="text2">import
-                            'termicons'</span><button id="copyButton2" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
+                            'termicons'</span></div>
                 </div>
             </div>
 
@@ -120,8 +117,7 @@
                             style="font-family: monospace" id="text3">
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">script src</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/dist/termicons.js&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">script</span>&gt;</pre>
-                        </span><button id="copyButton3" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
+                        </span></div>
                 </div>
             </div>
             <p style="margin-top: 16px; color: var(--black-70);">To use an icon, add the <span class="badge bg-custom"
@@ -196,8 +192,7 @@
                             style="font-family: monospace" id="text4">
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">link href</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;https://unpkg.com/termicons@</span><span style="color: #3366CC;">{{ $version }}</span><span style="color: #3366CC;">/css/termicons.min.css&quot;</span><span style="color: #FA5C7C;">rel</span><span>=</span>&quot;<span style="color: #0F58EB;">stylesheet</span>&quot;&gt;</pre>
-                        </span><button id="copyButton4" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
+                        </span></div>
                 </div>
             </div>
             <p style="margin-top: 16px; color: var(--black-70);">This will load termicons font into your webpage
@@ -271,8 +266,7 @@
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">html</span>&gt;</pre>
-                        </span><button id="copyButton5" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
+                        </span></div>
                 </div>
             </div>
             <p style="margin-top: 16px; font-weight: normal; color: var(--black-70);">A template usage with the
@@ -314,8 +308,7 @@
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">body</span>&gt;</pre>
                             <pre class="javascript"
                                 style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">html</span>&gt;</pre>
-                        </span><button id="copyButton6" class="btn btn-sm copyButton"
-                            style="color: #0F58EB; background-color: rgba(15, 88, 235, .2);">Copy</button></div>
+                        </span></div>
                 </div>
             </div>
 

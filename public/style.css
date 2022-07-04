@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root{
+:root {
     --primary-color: #3366cc;
     --primary-color-trans: rgba(15, 88, 235, .5);
-    --red:#FA5C7C;
-    --green:#339933;
+    --red: #FA5C7C;
+    --green: #339933;
     --white: #ffffff;
     --body: #ffffff;
     --black: #000000;
@@ -15,7 +15,7 @@
     --shadow: rgba(0, 0, 0, 0.08);
 }
 
-.dark-theme{
+.dark-theme {
     --white: #000000;
     --body: #181A1B;
     --black: #fff;
@@ -29,15 +29,15 @@
 ::-webkit-scrollbar {
     width: 6px;
     background: rgba(0, 0, 0, 0);
-  }
+}
 
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: var(--primary-color);
     border-radius: 10px;
-  }
+}
 
-  /* Utility */
-  .row .col-lg-10 .gotopbtn {
+/* Utility */
+.row .col-lg-10 .gotopbtn {
     position: fixed;
     width: 40px;
     height: 40px;
@@ -56,11 +56,11 @@
     font-size: 20px;
 }
 
-.row .col-lg-10 .gotopbtn:hover{
+.row .col-lg-10 .gotopbtn:hover {
     color: var(--primary-color);
 }
 
-  .row .col-lg-10 .darkmode {
+.row .col-lg-10 .darkmode {
     cursor: pointer;
     position: fixed;
     width: 40px;
@@ -80,7 +80,7 @@
     font-size: 20px;
 }
 
-.row .col-lg-10 .darkmode:hover{
+.row .col-lg-10 .darkmode:hover {
     color: var(--primary-color);
 }
 
@@ -102,7 +102,27 @@ pre .ti-code {
 
 .input-group .ti-search {
     border: none;
+    color: var(--black-70);
     background-color: rgba(0, 0, 0, 0);
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    color: var(--black-70) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .ti-button {
@@ -126,11 +146,12 @@ pre .ti-code {
     max-width: 100px;
 }
 
-.nav-link{
+.nav-link {
     color: var(--black) !important;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: rgb(15, 88, 235) !important;
     background-color: rgba(15, 88, 235, .2) !important;
 }
