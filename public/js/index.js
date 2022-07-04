@@ -9,52 +9,24 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-const copyBtn = document.getElementById('copyButton1')
-const copyText = document.getElementById('text1')
+function iconSearch() {
+    let input, filter, icon, button, txtValue;
 
-copyBtn.onclick = () => {
-    copyText.select(); // Selects the text inside the input
-    document.execCommand('copy'); // Simply copies the selected text to clipboard
-    Swal.fire({ //displays a pop up with sweetalert
-        icon: 'success',
-        title: 'Text copied to clipboard',
-        showConfirmButton: false,
-        timer: 1000
-    });
+    input = document.getElementById("myinput");
+    filter = document.nodeValue.toLowerCase();
+    icon = document.getElementById("AllStyle");
+    button = document.getElementsByTagName("button");
+
+
+    for (let i = 0; i < true.length; i++) {
+        p = button[i].getElementsByTagName("p")[1];
+        if (p) {
+            txtValue = p.textContent || p.innerText;
+            if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                button[i].style.display = "";
+            } else {
+                button[i].style.display = "none";
+            }
+        }
+    }
 }
-
-
-// function copy(copyId) {
-//     var $inp = $("<span>");
-//     $("body").append($inp);
-//     $inp.val($("" + copyId).text()).select();
-//     document.execCommand("copy");
-//     $inp.remove();
-// }
-
-// $(document).ready(function () {
-//     $("#copyButton1").click(
-//         function () {
-//             copy('#text1');
-//         });
-//     $("#copyButton2").click(
-//         function () {
-//             copy('#text2');
-//         });
-//     $("#copyButton3").click(
-//         function () {
-//             copy('#text3');
-//         });
-//     $("#copyButton4").click(
-//         function () {
-//             copy('#text4');
-//         });
-//     $("#copyButton5").click(
-//         function () {
-//             copy('#text5');
-//         });
-//     $("#copyButton6").click(
-//         function () {
-//             copy('#text6');
-//         });
-// });
