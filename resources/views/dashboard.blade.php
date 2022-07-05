@@ -89,7 +89,7 @@
         <p class="mt-2 d-flex justify-content-end" style="color: var(--black-50);" id="iconsTotal">1000 of 1000 icons</p>
 
         {{-- Modal All Style --}}
-        <div class="d-flex flex-row justify-content-between mt-5 flex-wrap" id="iconList"></div>
+        <div class="d-flex flex-row justify-content-start mt-5 flex-wrap" id="iconList"></div>
         {{-- Modal All Style --}}
     </div>
 

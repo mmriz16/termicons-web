@@ -4,14 +4,7 @@ icon.onclick = function () {
     document.body.classList.toggle("dark-theme");
 };
 
-var tooltipTriggerList = [].slice.call(
-    document.querySelectorAll('[data-bs-toggle="tooltip"]')
-);
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl);
-});
-
-function loadIcon() {
+function loadAllIcon() {
     const icons = [
         "til-500px",
         "til-adobe",
@@ -465,4 +458,4 @@ function iconSearch() {
     )} of ${Math.floor(allIcon.length / 2)} icons`;
 }
 
-loadIcon();
+loadAllIcon();

@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
     --primary-color: #3366cc;
-    --primary-color-trans: rgba(15, 88, 235, .5);
-    --red: #FA5C7C;
+    --primary-color-trans: rgba(15, 88, 235, 0.5);
+    --red: #fa5c7c;
     --green: #339933;
     --white: #ffffff;
     --body: #ffffff;
     --black: #000000;
-    --black-5: rgba(0, 0, 0, .05);
-    --black-10: rgba(0, 0, 0, .1);
-    --black-30: rgba(0, 0, 0, .3);
-    --black-50: rgba(0, 0, 0, .5);
+    --black-5: rgba(0, 0, 0, 0.05);
+    --black-10: rgba(0, 0, 0, 0.1);
+    --black-30: rgba(0, 0, 0, 0.3);
+    --black-50: rgba(0, 0, 0, 0.5);
     --black-70: rgba(0, 0, 0, 1);
     --shadow: rgba(0, 0, 0, 0.08);
 }
 
 .dark-theme {
     --white: #000000;
-    --body: #181A1B;
+    --body: #181a1b;
     --black: #fff;
-    --black-5: rgba(255, 255, 255, .05);
-    --black-10: rgba(255, 255, 255, .1);
-    --black-30: rgba(255, 255, 255, .3);
-    --black-50: rgba(255, 255, 255, .5);
-    --black-70: rgba(255, 255, 255, .7);
+    --black-5: rgba(255, 255, 255, 0.05);
+    --black-10: rgba(255, 255, 255, 0.1);
+    --black-30: rgba(255, 255, 255, 0.3);
+    --black-50: rgba(255, 255, 255, 0.5);
+    --black-70: rgba(255, 255, 255, 0.7);
     --shadow: rgba(0, 0, 0, 0.2);
 }
 
@@ -133,7 +133,7 @@ label:focus,
     background-color: var(--body);
     padding: 15px 10px;
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 10px 14.8px;
 }
 
 .ti-font-icon {
@@ -153,9 +153,9 @@ label:focus,
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
     color: rgb(15, 88, 235) !important;
-    background-color: rgba(15, 88, 235, .2) !important;
+    background-color: rgba(15, 88, 235, 0.2) !important;
 }
 
 .ti-icon-style {
@@ -177,9 +177,9 @@ label:focus,
 }
 
 .ti-button:hover {
-    box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.47);
+    box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 9px 10px 38px -15px rgba(0, 0, 0, 0.8);
 }
 
 .icon-hidden {

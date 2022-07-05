@@ -100,13 +100,13 @@
         </div>
     </div>
 
-    {{-- <script>
+    <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
-    <script>
+    {{-- <script>
         var icon = document.getElementById("toggleDark");
 
         icon.onclick = function () {
@@ -114,6 +114,8 @@
         }
 
     </script> --}}
+
+
 </body>
 
 </html>
