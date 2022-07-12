@@ -115,6 +115,7 @@
 
     </script> --}}
 
+    <script src="<?= url('nanobar/nanobar.min.js') ?>"></script>
 
 </body>
 

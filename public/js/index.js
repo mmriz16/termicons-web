@@ -1,3 +1,9 @@
+const nanobar = new Nanobar({
+    classname: "loading",
+    id: "loading",
+});
+nanobar.go(100);
+
 var icon = document.getElementById("toggleDark");
 
 var typeIcon = "all";
