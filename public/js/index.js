@@ -779,7 +779,7 @@ function loadAllIcon(type = "all") {
     let html = "";
     icons[type].forEach((icon) => {
         html += `
-        <button class="ti-button tt" id="liveToastBtn" data-bs-toggle="modal" data-bs-target="#${icon}" data-bs-placement="top" title="${
+        <button class="ti-button tt" id="liveToastBtn" data-bs-toggle="modal" data-bs-target="#tab-${typeIcon}-${icon}" data-bs-placement="top" title="${
             icon.split("-")[1]
         }">
             <div class="row">
@@ -792,7 +792,7 @@ function loadAllIcon(type = "all") {
                     .join("-")}</p>
             </div>
         </button>
-        <div class="modal fade" id="${icon}" tabindex="-1" aria-labelledby="${icon}" aria-hidden="true">
+        <div class="modal fade" id="tab-${typeIcon}-${icon}" tabindex="-1" aria-labelledby="${icon}" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content" style="border-radius: 5px;">
                     <div class="modal-body" style="background-color: var(--body)">

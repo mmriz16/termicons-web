@@ -7,7 +7,7 @@
         Cheatsheet</h1>
     <p
         style="font-family: 'Poppins', sans-serif; font-size: 20px; opacity: 80%; margin-top: 20px; color: var(--black);">
-        Copy paste the name of any of the 100+ icons</p>
+        Copy paste the name of any of the 300+ icons</p>
 </div>
 
 <!-- Usage -->

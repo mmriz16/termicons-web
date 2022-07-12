@@ -85,7 +85,7 @@
                     <form class="d-flex">
                         <a href="/cheatsheet" class="mx-2"
                             style="color: var(--black); text-decoration: none;">Cheatsheet</a>
-                        <a href="" class="mx-2" style="color: var(--black); text-decoration: none;">Request Icons</a>
+                        <a href="https://github.com/mmriz16/termicons/issues/new" target="_blank" class="mx-2" style="color: var(--black); text-decoration: none;">Request Icons</a>
                         <a href="/license" class="mx-2" style="color: var(--black); text-decoration: none;">License</a>
                     </form>
 

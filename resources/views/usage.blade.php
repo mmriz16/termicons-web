@@ -378,10 +378,10 @@
                     style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">ti-rotate-270</span>
                 or
                 Flip the icons using <span class="badge bg-custom"
-                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">bx-flip-horizontal</span>
+                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">ti-flip-horizontal</span>
                 and
                 <span class="badge bg-custom"
-                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">bx-flip-vertical</span>
+                    style="color: #0F58EB; background-color: rgba(15, 88, 235, .2); font-weight: normal;">ti-flip-vertical</span>
             </p>
             <div class="card" style="border: none; background-color: var(--black-5);">
                 <div class="card-body" style=" color: var(--black-70);">
@@ -438,11 +438,11 @@
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">ul class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti-ul&quot;</span>&gt;</pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-plus-cr-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 1</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-plus-cr-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 1</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-minus-sq-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 2</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-minus-sq-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 2</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-chevron-right-cr-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 3</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);">    &lt;<span style="color: #FA5C7C;">li</span>&gt;&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti ti-chevron-right-cr-fr&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;<span>List item 3</span>&lt;/<span style="color: #FA5C7C;">li</span>&gt;</pre>
                     <pre class="javascript"
                         style="font-family:monospace; margin: 0; color: var(--black);">&lt;/<span style="color: #FA5C7C;">ul</span>&gt;</pre>
                 </div>
@@ -543,9 +543,9 @@
             <div class="card" style="margin-top: 16px; border: none; background-color: var(--black-5);">
                 <div class="card-body">
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart bx-border&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart ti-border&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <pre class="javascript"
-                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart bx-border-circle&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
+                        style="font-family:monospace; margin: 0; color: var(--black);">&lt;<span style="color: #FA5C7C;">i class</span><span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;ti tis-heart ti-border-circle&quot;</span>&gt;&lt;/<span style="color: #FA5C7C;">i</span>&gt;</pre>
                     <br>
                         <pre class="javascript"
                         style="font-family:monospace; margin: 0;"><span style="color: #9b9b9b; font-style: italic;">&lt;!-- Termicons web component --&gt;</span></pre>
@@ -704,27 +704,15 @@
             <p style="color: var(--black-70);">Want to report a bug? Have some suggestions or ideas? Have an
                 icon or a feature request?
                 Create a
-                new issue on Github with the appropriate label <a href="" style="text-decoration: none;">here</a></p>
+                new issue on Github with the appropriate label <a href="https://github.com/mmriz16/termicons/issues/new" target="_blank" style="text-decoration: none;">here</a></p>
 
             <!-- License -->
             <h3 id="license" style="margin-top: 50px; color: var(--black);">License</h3>
-            <p style="color: var(--black-70);">Termicons is free, open source, and GPL friendly. You can use it
-                for commercial projects,
-                open source projects, or anywhere you want.</p>
-            <p style="font-weight: bold; margin-bottom: 0; color: var(--black-70);">Icons : CC BY 4.0 License
-            </p>
-            <p style="color: var(--black-70);">In the Termicons Free download, the CC BY 4.0 license applies to
-                all icons packaged as SVG
-                and JS
-                file types.</p>
-            <p style="font-weight: bold; margin-bottom: 0; color: var(--black-70);">Attribution</p>
-            <p style="color: var(--black-70);">Attribution is required by CC BY licenses. Downloaded Termicons
-                Free files already contain
-                embedded comments with sufficient attribution, you aren't required to do anything more.
-                We've kept attribution comments short and precise, so we ask that you do not actively work
-                to
-                remove them from files, especially code. They're a great way for people to learn about
-                Termicons.</p>
+            <p style="color: var(--black-70);">The MIT License (MIT)</p>
+            <p style="color: var(--black-70);">Copyright (c) 2017-2022 Miftakhul Rizky</p>
+            <p style="color: var(--black-70);">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+            <p style="color: var(--black-70);">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+            <p style="color: var(--black-70);">THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
         </div>
     </div>
 </div>
