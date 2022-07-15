@@ -6,8 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0F58EB">
-    <title>Termicons | {{ $title ?? "404 Page not found" }}</title>
+    <title>Termicons | {{ $title ?? '404 Page not found' }}</title>
     <link rel="icon" href="<?= url('just_logo.svg') ?>">
+
+
+    <!-- HTML Meta Tags -->
+    <meta name="description"
+        content="Termicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://termicons.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Termicons - Premium Web Friendly Icons for Free">
+    <meta property="og:description"
+        content="Termicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines.">
+    <meta property="og:image" content="https://termicons.com/assets/cover_meta.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="termicons.com">
+    <meta property="twitter:url" content="https://termicons.com/">
+    <meta name="twitter:title" content="Termicons - Premium Web Friendly Icons for Free">
+    <meta name="twitter:description"
+        content="Termicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines">
+    <meta name="twitter:image" content="https://termicons.com/assets/cover_meta.jpg">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -19,7 +41,6 @@
     <!-- Style -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
     </style>
 
     <!-- JS -->
@@ -38,16 +59,20 @@
                         style="font-weight: normal; color: var(--black-30); font-size: 14px;">Icon Library</span>
                 </a>
                 <form class="d-flex">
-                    <a href="https://facebook.com/mmriz16" target="_blank" class="mx-3" style="font-size: 24px; color: var(--black-70)">
+                    <a href="https://facebook.com/mmriz16" target="_blank" class="mx-3"
+                        style="font-size: 24px; color: var(--black-70)">
                         <i class="ti til-facebook-square"></i>
                     </a>
-                    <a href="https://twitter.com/kamado_kaozi" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                    <a href="https://twitter.com/kamado_kaozi" target="_blank" class="mx-3"
+                        style=" font-size: 24px; color: var(--black-70)">
                         <i class="ti til-twitter"></i>
                     </a>
-                    <a href="https://instagram.com/mmriz16" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                    <a href="https://instagram.com/mmriz16" target="_blank" class="mx-3"
+                        style=" font-size: 24px; color: var(--black-70)">
                         <i class="ti til-instagram-alt"></i>
                     </a>
-                    <a href="https://linkedin.com/in/mmriz16" target="_blank" class="mx-3" style=" font-size: 24px; color: var(--black-70)">
+                    <a href="https://linkedin.com/in/mmriz16" target="_blank" class="mx-3"
+                        style=" font-size: 24px; color: var(--black-70)">
                         <i class="ti til-linkedin-square"></i>
                     </a>
                 </form>
@@ -58,12 +83,13 @@
                         style="border: none; background-color: rgba(0, 0, 0, 0); color: var(--black-50); padding-right: 20px; font-size: 15px;">Usage</a>
                     <a href="https://redma.gumroad.com/l/Termicons" class="btn btn-primary"
                         style="background-color: rgba(15, 88, 235, .1); border: none; color: rgb(15, 88, 235); font-size: 15px;"
-                        target="_blank"><i class="ti ti-import" style="margin-right: 10px;"></i>{{ $fullVersion ?? "Version 1.0.3" }}</a>
+                        target="_blank"><i class="ti ti-import"
+                            style="margin-right: 10px;"></i>{{ $fullVersion ?? 'Version 1.0.3' }}</a>
                 </form>
             </div>
         </nav>
 
-            @yield('container')
+        @yield('container')
 
         <!-- Go To Top -->
         <div class="row justify-content-right">
@@ -85,8 +111,10 @@
                     <form class="d-flex">
                         <a href="/cheatsheet" class="mx-2"
                             style="color: var(--black); text-decoration: none;">Cheatsheet</a>
-                        <a href="https://github.com/mmriz16/termicons/issues/new" target="_blank" class="mx-2" style="color: var(--black); text-decoration: none;">Request Icons</a>
-                        <a href="/license" class="mx-2" style="color: var(--black); text-decoration: none;">License</a>
+                        <a href="https://github.com/mmriz16/termicons/issues/new" target="_blank" class="mx-2"
+                            style="color: var(--black); text-decoration: none;">Request Icons</a>
+                        <a href="/license" class="mx-2"
+                            style="color: var(--black); text-decoration: none;">License</a>
                     </form>
 
                     <form class="d-flex">
@@ -102,7 +130,7 @@
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
