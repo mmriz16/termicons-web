@@ -74,7 +74,7 @@
                 <h3 style="color: var(--black);">Quick Start</h3>
                 <p style="color: var(--black-70);">Looking to quickly add Termicons to your project? Use the paths
                     to
-                    CDN or Download the files <a href="" style="text-decoration: none;">here</a>.</p>
+                    CDN or Download the files <a href="https://redma.gumroad.com/l/Termicons" target="_blank" style="text-decoration: none;">here</a>.</p>
 
                 <!-- Install Via NPM -->
                 <h3 id="install_via_npm" style="margin-top: 20px; padding-top: 30px; color: var(--black);">Install

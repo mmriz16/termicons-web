@@ -20,7 +20,7 @@
     <meta property="og:title" content="Termicons - Premium Web Friendly Icons for Free">
     <meta property="og:description"
         content="Termicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines.">
-    <meta property="og:image" content="https://termicons.com/assets/cover_meta.jpg">
+    <meta property="og:image" content="https://termicons.com/assets/cover_meta.webp">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -29,7 +29,7 @@
     <meta name="twitter:title" content="Termicons - Premium Web Friendly Icons for Free">
     <meta name="twitter:description"
         content="Termicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines">
-    <meta name="twitter:image" content="https://termicons.com/assets/cover_meta.jpg">
+    <meta name="twitter:image" content="https://termicons.com/assets/cover_meta.webp">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
